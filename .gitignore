@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -102,7 +102,8 @@ venv.bak/
 /site
 
 # mypy
+
 .mypy_cache/
-=======
+
 /node_modules
->>>>>>> ...
+
