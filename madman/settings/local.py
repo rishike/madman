@@ -133,3 +133,8 @@ STATIC_URL = '/static/'
 
 
 STATIC_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'src')
+
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
