@@ -7,12 +7,81 @@
   <title>{% block title %} {% endblock title	%}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="{% static 'output/bundle.css' %}" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </head>
-<body class="shrine-login">
+<body>
+	<div class="container">
+		 <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Logo</a>
+      <div class="row">
+      	<div class="col s6 offset-s3">
+		<form class="center">
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+          <i class="material-icons">close</i>
+        </div>
+      </form>
+  </div>
+
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="signup.html">Sign Up </a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+  </div>
+    </div>
+  </nav>
+  <div style="white-space: pre;"> </div>
+	<nav>
+    <div class="nav-wrapper">
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="#">menu</a></li>
+        <li><a href="#">nav</a></li>
+        <li><a href="#">bar</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+	  <div style="white-space: pre;"> </div>
    {% block content %}
        
    {% endblock content %}
+ 
+        <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col 12 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            </div>
+          </div>
+        </footer>
+    </div>
   <script src="{% static 'output/bundle.js' %}" async></script>
+  <script type="text/javascript">
+  	 var instance = M.Carousel.init({
+    fullWidth: true,
+    indicators: true
+  });
+
+  // Or with jQuery
+
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  });
+  </script>
 </body>
 </html>
