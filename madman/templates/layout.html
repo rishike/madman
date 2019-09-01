@@ -1,0 +1,18 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{% block title %} {% endblock title	%}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="{% static 'output/bundle.css' %}" rel="stylesheet">
+
+</head>
+<body class="shrine-login">
+   {% block content %}
+       
+   {% endblock content %}
+  <script src="{% static 'output/bundle.js' %}" async></script>
+</body>
+</html>
