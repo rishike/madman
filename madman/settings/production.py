@@ -27,7 +27,7 @@ SECRET_KEY = '$sc!*$rjmr$0t2nf%v%o6s)j!)2m@j$2kuy8aqf^!5u$-x0u7b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['madman.herokuapp.com']
+ALLOWED_HOSTS = ['madman.herokuapp.com', '*']
 
 
 # Application definition
@@ -130,6 +130,8 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src'),
 )
+
+STATIC_ROOT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'src')
 
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
