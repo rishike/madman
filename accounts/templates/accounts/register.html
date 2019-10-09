@@ -1,0 +1,72 @@
+{% extends "layout.html" %}
+
+{% load static %}
+{% block title %}Register Page{% endblock title %}
+{% block content %}
+  
+
+   
+
+
+    
+    <h1 class="center">Register</h1>
+    <form class="col s12" method="post" action="{% url 'accounts:register' %}">
+ 
+
+      {% csrf_token %}
+    <div class="row">
+        <div class="input-field col s12">
+          {{ main.username }}
+          {{ main.username.label_tag }}
+           <span class="red-text text-darken-2">{{ main.errors.username }}</span>
+        </div>
+        
+    </div>
+     <div class="row">
+        <div class="input-field col s12">
+          {{ main.email}}
+          {{ main.email.label_tag}}
+          <span class="red-text text-darken-2">{{ main.errors.email }}</span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          {{ main.password }}
+          {{ main.password.label_tag }}
+          <span class="red-text text-darken-2">{{ main.errors.password }}</span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          {{ secondary.phone_number }}
+          {{ secondary.phone_number.label_tag }}
+          <span class="red-text text-darken-2">{{ secondary.errors.phone_number }}</span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          {{ secondary.gender }}
+          {{ secondary.gender.label_tag }}
+      <span class="red-text text-darken-2">{{ secondary.errors.gender }}</span>
+  </div>
+      </div>
+      
+      <div class="row">
+        <div class="input-field col s12">
+          {{ secondary.dob }}
+          {{ secondary.dob.label_tag }}
+          <span class="red-text text-darken-2">{{ secondary.errors.dob }}</span>
+        </div>
+      </div>
+    
+    <div class="row">
+      <input class="btn" type="submit" name="signup" value="Submit">
+    </div>
+    </form>
+
+    
+
+{% endblock content %}

@@ -28,9 +28,17 @@
       </form>
   </div>
 
+
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="signup.html">Sign Up </a></li>
-        <li><a href="login.html">Login</a></li>
+        {% if request.user.is_authenticated %}
+           <li><a href="#">Welcome {{ request.user.username }} </a></li>
+            <li></li>
+          <li><a href="{% url 'accounts:logout' %}">logout </a></li>
+        {% else %}
+        <li><a href="{% url 'accounts:register' %}">Sign Up </a></li>
+        <li><a href="{% url 'accounts:login' %}">Login</a></li>
+
+        {% endif %}
       </ul>
   </div>
     </div>
@@ -70,17 +78,21 @@
     </div>
   <script src="{% static 'output/bundle.js' %}" async></script>
   <script type="text/javascript">
-  	 var instance = M.Carousel.init({
-    fullWidth: true,
-    indicators: true
+
+  $(document).ready(function(){
+    $('select').formSelect();
+
+    $('.carousel.carousel-slider').carousel({
+      fullWidth: true,
+      indicators: true
+    });
+
+    $('.datepicker').datepicker({
+      'format':'dd/mm/yyyy',
+      'maxDate': (new Date),
+    });
   });
 
-  // Or with jQuery
-
-  $('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-    indicators: true
-  });
   </script>
 </body>
 </html>

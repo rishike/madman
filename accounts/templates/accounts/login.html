@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% load static %}
+
+{% block title %}Login Page{% endblock title %}
+
+{% block content %}
+    <h1>Login page</h1>
+    <div class="row">
+    <form class="col s12" action="{% url 'accounts:login' %}" method="post">
+        {% csrf_token %}
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Username" id="username" name="username" type="text" class="validate">
+          <label for="username">Username</label>
+        </div>
+  
+      </div>
+  
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate" placeholder="password" name="password">
+          <label for="password">Password</label>
+        </div>
+      </div>
+      <div class="row">
+      <input class="btn" type="submit" name="login" value="Submit">
+    </div>
+    </form>
+  </div>
+{% endblock content %}
