@@ -4,17 +4,17 @@ from django.db import migrations
 import django.db.models.manager
 
 
-class Migration(migrations.Migration):
+# class Migration(migrations.Migration):
 
-    dependencies = [
-        ('accounts', '0004_auto_20190925_0129'),
-    ]
+#     dependencies = [
+#         ('accounts', '0004_auto_20190925_0129'),
+#     ]
 
-    operations = [
-        migrations.AlterModelManagers(
-            name='account',
-            managers=[
-                ('accountManager', django.db.models.manager.Manager()),
-            ],
-        ),
-    ]
+#     operations = [
+#         migrations.AlterModelManagers(
+#             name='account',
+#             managers=[
+#                 ('accountManager', django.db.models.manager.Manager()),
+#             ],
+#         ),
+#     ]

@@ -3,20 +3,20 @@
 from django.db import migrations, models
 
 
-class Migration(migrations.Migration):
+# class Migration(migrations.Migration):
 
-    dependencies = [
-        ('accounts', '0003_auto_20190925_0006'),
-    ]
+#     dependencies = [
+#         ('accounts', '0003_auto_20190925_0006'),
+#     ]
 
-    operations = [
-        migrations.AlterField(
-            model_name='account',
-            name='is_super_admin',
-            field=models.BooleanField(default=False),
-        ),
-        migrations.AlterModelTable(
-            name='account',
-            table='account',
-        ),
-    ]
+#     operations = [
+#         migrations.AlterField(
+#             model_name='account',
+#             name='is_super_admin',
+#             field=models.BooleanField(default=False),
+#         ),
+#         migrations.AlterModelTable(
+#             name='account',
+#             table='account',
+#         ),
+#     ]

@@ -3,63 +3,63 @@
 from django.db import migrations
 
 
-class Migration(migrations.Migration):
+# class Migration(migrations.Migration):
 
-    dependencies = [
-        ('accounts', '0006_auto_20191005_2131'),
-    ]
+#     dependencies = [
+#         ('accounts', '0006_auto_20191005_2131'),
+#     ]
 
-    operations = [
-        migrations.RemoveField(
-            model_name='account',
-            name='api_token',
-        ),
-        migrations.RemoveField(
-            model_name='account',
-            name='created_at',
-        ),
-        migrations.RemoveField(
-            model_name='account',
-            name='deleted_at',
-        ),
-        migrations.RemoveField(
-            model_name='account',
-            name='dob',
-        ),
-        migrations.RemoveField(
-            model_name='account',
-            name='email',
-        ),
-        migrations.RemoveField(
-            model_name='account',
-            name='first_name',
-        ),
-        migrations.RemoveField(
-            model_name='account',
-            name='gender',
-        ),
-        migrations.RemoveField(
-            model_name='account',
-            name='is_super_admin',
-        ),
-        migrations.RemoveField(
-            model_name='account',
-            name='last_name',
-        ),
-        migrations.RemoveField(
-            model_name='account',
-            name='nickname',
-        ),
-        migrations.RemoveField(
-            model_name='account',
-            name='password',
-        ),
-        migrations.RemoveField(
-            model_name='account',
-            name='updated_at',
-        ),
-        migrations.RemoveField(
-            model_name='account',
-            name='username',
-        ),
-    ]
+#     operations = [
+#         migrations.RemoveField(
+#             model_name='account',
+#             name='api_token',
+#         ),
+#         migrations.RemoveField(
+#             model_name='account',
+#             name='created_at',
+#         ),
+#         migrations.RemoveField(
+#             model_name='account',
+#             name='deleted_at',
+#         ),
+#         migrations.RemoveField(
+#             model_name='account',
+#             name='dob',
+#         ),
+#         migrations.RemoveField(
+#             model_name='account',
+#             name='email',
+#         ),
+#         migrations.RemoveField(
+#             model_name='account',
+#             name='first_name',
+#         ),
+#         migrations.RemoveField(
+#             model_name='account',
+#             name='gender',
+#         ),
+#         migrations.RemoveField(
+#             model_name='account',
+#             name='is_super_admin',
+#         ),
+#         migrations.RemoveField(
+#             model_name='account',
+#             name='last_name',
+#         ),
+#         migrations.RemoveField(
+#             model_name='account',
+#             name='nickname',
+#         ),
+#         migrations.RemoveField(
+#             model_name='account',
+#             name='password',
+#         ),
+#         migrations.RemoveField(
+#             model_name='account',
+#             name='updated_at',
+#         ),
+#         migrations.RemoveField(
+#             model_name='account',
+#             name='username',
+#         ),
+#     ]

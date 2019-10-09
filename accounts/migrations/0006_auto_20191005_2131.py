@@ -3,21 +3,21 @@
 from django.db import migrations, models
 
 
-class Migration(migrations.Migration):
+# class Migration(migrations.Migration):
 
-    dependencies = [
-        ('accounts', '0005_auto_20190930_1459'),
-    ]
+#     dependencies = [
+#         ('accounts', '0005_auto_20190930_1459'),
+#     ]
 
-    operations = [
-        migrations.AlterField(
-            model_name='account',
-            name='email',
-            field=models.EmailField(max_length=254, unique=True),
-        ),
-        migrations.AlterField(
-            model_name='account',
-            name='username',
-            field=models.CharField(max_length=30, unique=True),
-        ),
-    ]
+#     operations = [
+#         migrations.AlterField(
+#             model_name='account',
+#             name='email',
+#             field=models.EmailField(max_length=254, unique=True),
+#         ),
+#         migrations.AlterField(
+#             model_name='account',
+#             name='username',
+#             field=models.CharField(max_length=30, unique=True),
+#         ),
+#     ]
