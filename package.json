@@ -14,6 +14,8 @@
     "css-loader": "^3.2.0",
     "extract-loader": "^3.1.0",
     "file-loader": "^4.2.0",
+    "leaflet": "^1.6.0",
+    "leaflet-ajax": "^2.1.0",
     "materialize-css": "^1.0.0",
     "postcss-loader": "^3.0.0",
     "sass": "^1.22.10",
@@ -22,6 +24,8 @@
     "webpack": "^4.39.3"
   },
   "devDependencies": {
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.6.10",
     "webpack-cli": "^3.3.7"
   }
 }

@@ -1,0 +1,113 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                                                                 
+"features": [
+	{ "type": "Feature", "properties": 
+		{ "id": 1, "name": "Qutub Minar", "image": "qutub_minar.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Qutb_Minar" }, "geometry": { "type": "Point", "coordinates": [77.185248, 28.524355] } },
+	{ "type": "Feature", "properties": 
+		{ "id": 2, "name": "Gurudwara Bangla Sahib", "image": "anthropology.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/National_Museum_of_Anthropology_(Mexico)" }, "geometry": { "type": "Point", "coordinates": [ -99.186322350435987, 19.426167975275984 ] } },
+	{ "type": "Feature", "properties": 
+		{ "id": 3, "name": "Red Fort", "image": "chapultepec.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Chapultepec" }, "geometry": { "type": "Point", "coordinates": [ -99.186538764177541, 19.419330699425345 ] } },
+	{ "type": "Feature", "properties": 
+		{ "id": 4, "name": "Jama Masjid", "image": "coyoacan.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Coyoac%C3%A1n" }, "geometry": { "type": "Point", "coordinates": [ -99.16938652669846, 19.360599286308908 ] } },
+	{ "type": "Feature", "properties": 
+		{ "id": 5, "name": "Raj Ghat", "image": "xochimilco.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Xochimilco" }, "geometry": { "type": "Point", "coordinates": [ -99.10105213434575, 19.288539898884309 ] } },
+	{ "type": "Feature", "properties": 
+		{ "id": 6, "name": "Feroz Shah Kotla Fort", "image": "bellaarts.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Palacio_de_Bellas_Artes" }, "geometry": { "type": "Point", "coordinates": [ -99.141254115633359, 19.435377742284864 ] } },
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "India Gate", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "National War Memorial", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Rashtrapati Bhawan Vijay Chowk", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Lotus Temple", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Humayun’s Tomb", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Purana Qila", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Jantar Mantar", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Rashtrapati Bhawan Museum Dolls Museum", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "National Gallery of Modern Art", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "National Museum", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Nehru Museum", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "National Rail Museum", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Madame Tussaud’s Wax Museum", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Sarojni Nagar Market", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Dilli-Haat", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Lajpat Nagar Market", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Janpath Market", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Rajpath", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Embassy Lane", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Parliament House", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Air Force Head Quarter", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Ministry of External Affairs", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Shanti Van", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Shakti Sthal", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Vir Bhumi", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Salimgarh Fort", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "BJP Head Quarter", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "AIIMS", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+		},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "IIT", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+	},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "NCERT", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+	},
+	{ "type": "Feature", "properties": 
+		{ "id": 7, "name": "Delhi Zoo", "image": "leones.jpg", "web": "https:\/\/en.wikipedia.org\/wiki\/Desierto_de_los_Leones_National_Park" }, "geometry": { "type": "Point", "coordinates": [ -99.311104535201409, 19.312817198661758 ] } 
+	}
+]
+	
+}

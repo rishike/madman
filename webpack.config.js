@@ -2,7 +2,7 @@ var path = require('path');
 var webpack = require('webpack');
 // var BundleTracker = require('webpack-bundle-tracker');
 const autoprefixer = require('autoprefixer');
-
+const VueLoaderPlugin = require('vue-loader/lib/plugin');
 module.exports = {
   mode: 'development',
   context: __dirname,
@@ -34,10 +34,20 @@ module.exports = {
             loader: 'sass-loader'
           }
         ]
+      },
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader'
       }
     ]
   },
+  resolve: {
+    alias: {
+      'vue$': 'vue/dist/vue.js'
+    },
+    extensions: ['*', '.js', '.vue', '.json']
+  },
   plugins:[
-
+      new VueLoaderPlugin()
   ]
 };
