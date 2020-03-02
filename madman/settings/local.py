@@ -90,6 +90,14 @@ DATABASES = {
         'PASSWORD': '',
         'HOST': '127.0.0.1',
         'PORT':'5432'
+    },
+    'map': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'webmap',
+        'USER':'postgres',
+        'PASSWORD': '',
+        'HOST': '127.0.0.1',
+        'PORT':'5432'
     }
 }
 

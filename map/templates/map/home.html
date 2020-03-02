@@ -1,0 +1,20 @@
+{% extends "map_layout.html" %}
+{% block content %}
+<h1 class="title has-text-centered has-text-warning is-size-3">Create And Download Map Coordinate.</h1>
+	<div class="column buttons" v-html="mapLocationListEl" >
+		
+		</div>
+	<div class="tile is-parent" style="height: 550px">
+		<div class="tile is-child notification  is-white">
+	<mapview>
+	</mapview>
+	<div class="columns is-pulled-right has-text-right-mobile">
+		<div class="column">
+	<p class="has-text-danger">Double Click on map to get the coordinates*</p>
+		</div>
+	</div>
+
+</div>
+</div>
+	
+{% endblock content %}

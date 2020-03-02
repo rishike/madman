@@ -6,10 +6,14 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin');
 module.exports = {
   mode: 'development',
   context: __dirname,
-  entry: ['./src/app.scss','./src/index.js'],
+  entry: {
+    main:'./src/app.scss',
+    app:'./src/index.js',
+    vendor:['vue']
+  },
   output: {
       path: path.resolve(__dirname, './src/output'),
-      filename: "bundle.js"
+      filename: "[name].js"
   },
   module: {
   	rules: [
@@ -19,7 +23,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: 'bundle.css',
+              name: 'main.css',
             },
           },
           {loader: 'extract-loader'},
