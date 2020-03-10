@@ -30,15 +30,7 @@ from blog.views import HomeView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", HomeView.as_view(), name="blog.home"),
-    # path('', include(('accounts.urls'), namespace='accounts')),
-    # path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-    # path('api/', include(router.urls), name='api'),
-    # path('api/profile/', include('user_profile.api.urls', namespace="profile-api")),
-    # path('language/', include('languages.urls'),name='language'),
-    # path('api/token/', TokenObtainPairView.as_view()),
-    # path('api/token/refresh/', TokenRefreshView.as_view()),
-    path('map/', include('map.urls', namespace="map"))
+    path('', include('map.urls', namespace="map"))
 ]
 
 
