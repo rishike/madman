@@ -10,6 +10,7 @@ from django.db import connections
 from collections import namedtuple,defaultdict
 from django.template.response import SimpleTemplateResponse
 from django.core.exceptions import ValidationError
+import string
 # from django.views.decorators.csrf import csrf_protect
 
 
