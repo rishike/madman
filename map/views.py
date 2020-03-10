@@ -6,7 +6,7 @@ from django.views.generic import TemplateView
 from django.views.generic.detail import DetailView
 import json
 from django.conf import settings
-from django.db import connections
+from django.db import connections,connection
 from collections import namedtuple,defaultdict
 from django.template.response import SimpleTemplateResponse
 from django.core.exceptions import ValidationError
@@ -55,7 +55,7 @@ def SaveGeoDataIntoDb(request):
 def GeoDataFromDb(request):
 	features=[]
 	GeoFieldName = namedtuple('fieldName', 'id, name, image, web, geometry')
-	with connections['map'].cursor() as cursor:
+	with connection.cursor() as cursor:
 		cursor.execute("SELECT id, name, image, web, \
 		 ST_AsGeoJSON(geom, 5) as geom \
 		 FROM cdmx_attractions order by name")

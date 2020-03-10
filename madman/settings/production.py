@@ -81,20 +81,20 @@ WSGI_APPLICATION = 'madman.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'madman',
-        'USER':'postgres',
-        'PASSWORD': '',
-        'HOST': '127.0.0.1',
+        'NAME': 'd2l3kh9sp73sh4',
+        'USER':'lhuxvhycgfbpid',
+        'PASSWORD': 'bcbc2770a60b81ad57568b18b66800f25fcbe30b736eb48db6dcf82dc70fd2df',
+        'HOST': 'ec2-34-200-116-132.compute-1.amazonaws.com',
         'PORT':'5432'
     },
-    'map': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'webmap',
-        'USER':'postgres',
-        'PASSWORD': '',
-        'HOST': '127.0.0.1',
-        'PORT':'5432'
-    }
+    # 'map': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'webmap',
+    #     'USER':'postgres',
+    #     'PASSWORD': '',
+    #     'HOST': '127.0.0.1',
+    #     'PORT':'5432'
+    # }
 }
 
 
