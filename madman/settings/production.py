@@ -27,7 +27,7 @@ SECRET_KEY = '$sc!*$rjmr$0t2nf%v%o6s)j!)2m@j$2kuy8aqf^!5u$-x0u7b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['madman.herokuapp.com', '*']
+ALLOWED_HOSTS = ['madman-map.herokuapp.com', '*']
 
 
 # Application definition
